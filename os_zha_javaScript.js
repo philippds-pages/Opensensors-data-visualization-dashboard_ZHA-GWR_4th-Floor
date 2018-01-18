@@ -5,7 +5,17 @@ function changeColor(id) {
   document.getElementById("3").style.color = "black";
   document.getElementById("4").style.color = "black";
 
-  document.getElementById(id).style.color = "red";
+  if(id == "0") { document.getElementById("0").style.color = "red"; }
+  else { document.getElementById("0").style.color = "black"; }
+  if(id == "1") { document.getElementById("1").style.color = "red"; }
+  else { document.getElementById("1").style.color = "black"; }
+  if(id == "2") { document.getElementById("2").style.color = "red"; }
+  else { document.getElementById("2").style.color = "black"; }
+  if(id == "3") { document.getElementById("3").style.color = "red"; }
+  else { document.getElementById("3").style.color = "black"; }
+  if(id == "4") { document.getElementById("4").style.color = "red"; }
+  else { document.getElementById("4").style.color = "black"; }
+
 }
 
 function changeImage0(a) {
