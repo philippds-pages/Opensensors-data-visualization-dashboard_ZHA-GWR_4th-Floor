@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="os_zha_css.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>ZHA-UserParametrics - 4thFloor Sensor Reading</title>
+  </head>
+
+  <body>
+
+
+    <br>
+    <br>
+
+    <!-- HEADLINE -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4" id="head">
+          <p><h3>ZHA <strong>UserParametrics</strong></h3></p>
+          <p>GWR 4th Floor / Sensor Reading</p>
+        </div>
+        <div class="col-sm-4" id="live">
+          <br>
+          <p><a>•</a> <strong>LIVE</strong></p>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <!-- IMAGE CONTENT -->
+    <div class="container-fluid" style="position:relative;">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <img id="img" src="C:\Users\pdsie\Desktop\image_0.jpg">
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <!-- MENU -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-1" onclick='changeImage0("C:/Users/pdsie/Desktop/image_0.jpg");'>
+          <p id="0" style="color:red;">Temperature</p>
+        </div>
+        <div class="col-sm-1" onclick='changeImage1("C:/Users/pdsie/Desktop/image_1.jpg");'>
+          <p id="1">Occupancy</p>
+        </div>
+        <div class="col-sm-1" onclick='changeImage2("C:/Users/pdsie/Desktop/image_2.jpg");'>
+          <p id="2">CO2</p>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+
+
+
+  <script src="os_zha_javaScript.js"></script>
+  </body>
+</html>
