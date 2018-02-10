@@ -46,3 +46,8 @@ div img {
 {
   color: black;
 }
+
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
